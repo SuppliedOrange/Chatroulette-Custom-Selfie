@@ -1,7 +1,7 @@
 [![Chrome OS](https://img.shields.io/badge/Get_it_on_webstore-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white)](https://chrome.google.com/webstore/detail/chatroulette-custom-selfie/diioniigmlfehfeoojmgonobbmkndffe)
 
 ### Tired of looking like an exhausted goblin before taking a selfie on Chatroulette? <br>
-### This extension allows you to use ANY image as your selfie. So go out, take a nice picture from your phone and upload it on Chatroulette!
+### This extension allows you to use ANY image as your selfie. So go out, take a nice picture on your phone and upload it on Chatroulette!
 
 <hr> 
 
@@ -11,7 +11,9 @@
 
   + You will need to set a selfie before using this. Doesn't matter if it's bad. The extension just replaces that selfie.
 
-  + If the extension doesn't work even after you've set a selfie, try refreshing and see if your selfie disappears. This means that Chatroulette hasn't saved your selfie yet. Keep retrying until it does.
+  + If the extension doesn't work even after you've set a selfie, try refreshing and see if your selfie disappears. This means that Chatroulette hasn't saved your selfie to local storage yet. Keep retrying/refreshing until it does.
+
+  + Make sure you're face is visible on the selfie because chatroulette runs a face detection algorithm on it. Let me know if you find exploits though!
 
 <br>
 
@@ -20,7 +22,7 @@
 <br>
 
 + **Permissions explained**: <br>
-  + *Storage:* This application may suggest that it needs access to your browser history. It does not. It actually uses LocalStorage which is a database for the website.
+  + *Storage:* This application may tell you that it needs access to your browser history. It does not. It actually uses LocalStorage which is a database for the website.
   + *Native Messaging:* Cooperating native applications means the extension talks to the website and back to update your selfie.
 
 <br>
