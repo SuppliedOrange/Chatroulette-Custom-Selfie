@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatroulette Custom Selfie</title>
+
+  <!-- Background JS -->
+  <script src="background.js"></script>
+  
+  <!-- Local files -->
+  <script src="js/toasts.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/filehandler.js"></script>
+
+  <!-- Dependencies -->
+  <link href="./deps/bootstrap.min.css" rel="stylesheet">
+  <script src="./deps/bootstrap.bundle.min.js"></script>
+  <link href="./deps/animate.min.css" rel="stylesheet">
+
+  <link href="popup.css" rel="stylesheet">
+</head>
+
+<body class="animate__animated animate__fadeIn">
+
+    <div class="d-flex flex-row justify-content-center m-5">
+      
+      <div class="d-flex flex-column align-items-center">
+
+        <!-- Logo -->
+        <img src="./assets/images/ccs_logo.png" class="img" style="max-width: 40vh; min-width: 65vw;">
+
+        <div id="tabs-container" class="tab-content">
+
+          <!-- Unsupported website tab -->
+          <div id="unsupported-tab" class="tab-pane" role="tabpanel", tabindex="0">
+            
+            <h6 class="text-center my-5 py-3"> Oops, this extension only works on the chatroulette website :( </h2>
+
+          </div>
+
+          <!-- Init tab -->
+          <div id="init-tab" class="tab-pane active show" role="tabpanel", tabindex="0">
+
+            <button id="init" type="button" class="btn btn-outline-success m-4" type="button">Initiatlize</button>
+        
+            <div id="init-error" class="collapse alert alert-danger bg-danger text-light fw-bold font-smaller" role="alert">
+              <div class="d-flex flex-column align-items-center">
+                <img src="./assets/images/warning.svg"></img>
+              </div>
+                <hr>
+                <p>> Set a selfie</p>
+                <p>> Refresh the page</p>
+            </div>
+
+          </div>
+
+          <!-- Main execution tab -->
+          <div id="exec-tab" class="tab-pane" role="tabpanel", tabindex="0">
+
+            <div class="d-flex flex-column">
+
+              <button id="upload" type="button" class="btn btn-outline-success m-4" type="button"> Upload Selfie </button>
+              <input hidden type="file" id="upload-file-selector">
+
+              <div id="upload-success" class="collapse alert alert-success bg-success text-light fw-bold font-smaller my-5" role="alert">
+                <div class="d-flex flex-column align-items-center">
+                  <img src="./assets/images/check.svg" ></img>
+                </div>
+                <hr>
+                <p class="text-center"> Selfie changed, you're ready to refresh the page! </p>
+              </div>
+              </div>
+  
+              <div id="upload-error" class="collapse alert alert-danger bg-danger text-light fw-bold font-smaller" role="alert">
+                <div class="d-flex flex-column align-items-center">
+                  <img src="./assets/images/warning.svg" ></img>
+                </div>
+                <hr>
+                <p id="upload-error-msg"></p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+          <div class="footer-inner">
+            <div class="footer-content mb-1">
+              <button id="instagram" style="background-color: transparent; border: 0px;">
+                <img src="./assets/images/instagram.svg"></img> <p style="display: inline; color: white;"> &nbsp @kronsuki </p> </img>
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        
+
+      </div>
+      
+    </div>
+
+  </container>
+
+</body>
+
+</html>
