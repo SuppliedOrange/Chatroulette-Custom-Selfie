@@ -7,7 +7,7 @@
 
 <br>
 
-+ Usage:
++ **Usage:**
 
   + You will need to set a selfie before using this. Doesn't matter if it's bad. The extension just replaces that selfie.
 
