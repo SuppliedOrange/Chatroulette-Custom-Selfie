@@ -1,5 +1,7 @@
-Tired of looking like an exhausted goblin before taking a selfie on Chatroulette? <br>
-This extension allows you to use ANY image as your selfie. So go out, take a nice picture from your phone and upload it on Chatroulette!
+### Tired of looking like an exhausted goblin before taking a selfie on Chatroulette? <br>
+### This extension allows you to use ANY image as your selfie. So go out, take a nice picture from your phone and upload it on Chatroulette!
+
+<br>
 
 <hr> 
 
