@@ -11,9 +11,7 @@
 
   + You will need to set a selfie before using this. Doesn't matter if it's bad. The extension just replaces that selfie.
 
-  + If the extension doesn't work even after you've set a selfie, try refreshing and see if your selfie disappears. This means that Chatroulette hasn't saved your selfie to local storage yet. Keep retrying/refreshing until it does.
-
-  + Make sure you're face is visible on the selfie because chatroulette runs a face detection algorithm on it. Let me know if you find exploits though!
+  + The extension also flips your thumbnail and resizes it. This is how others will actually see you. As a 1x1 non-inverted picture.
 
 <br>
 
