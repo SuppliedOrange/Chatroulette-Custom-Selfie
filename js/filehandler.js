@@ -21,18 +21,28 @@ async function checkFile(event) {
     const imageData = data.slice(data.indexOf(',') + 1);
 
     const img = new Image();
+
     img.src = dataURI;
-    const height = img.height;
-    const width = img.width;
 
-    const newData = {
-      contentType: contentType,
-      height: height,
-      width: width,
-      data: imageData
-    };
+    img.onload = function() {
 
-    createDataStringAndUpload( newData );
+        while (img.height > 800 || img.width > 800) {
+
+            img.height = Math.round( img.height / 1.1 );
+            img.width = Math.round( img.width / 1.1 );
+    
+        }
+    
+        const newData = {
+          contentType: contentType,
+          height: img.height,
+          width: img.width,
+          data: imageData
+        };
+        
+        createDataStringAndUpload( newData, dataURI );
+
+    }
 
 }
 
@@ -42,28 +52,3 @@ const toBase64 = file => new Promise((resolve, reject) => {
     reader.onload = () => resolve(reader.result);
     reader.onerror = reject;
 });
-
-function createDataStringAndUpload( newData ) {
-
-    chrome.tabs.query( {active: true, currentWindow: true}, function (tabs) {
-        
-        chrome.scripting.executeScript( { target: {tabId: tabs[0].id},  func: ( () => window.localStorage.getItem('selfie')) } )
-        .then( async results => {
-
-            if (!results.length) return failureToast("I couldn't find your selfie, weird. Refresh and retry.")
-
-            var selfie = results[0].result;
-            selfie = await JSON.parse(selfie);
-            if (!selfie || !selfie.id) return failureToast("Data from LS was malformed. Report this to owner.");
-
-            newData.id = selfie.id;
-            newData = JSON.stringify(newData);
-
-            chrome.scripting.executeScript( { target: {tabId: tabs[0].id}, func: ( (args) => window.localStorage.setItem( 'selfie', args )), args: [newData] } )
-            .then( r => successToast() );
-
-        })
-
-    })
-
-}
