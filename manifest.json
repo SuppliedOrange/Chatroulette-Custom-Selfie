@@ -12,7 +12,7 @@
         "js": ["./js/fixcanvas.js"]
       }
     ],
-    "permissions": ["storage", "tabs", "nativeMessaging", "scripting", "activeTab"],
+    "permissions": ["tabs", "scripting", "activeTab"],
     "host_permissions": ["https://chatroulette.com/*"],
     "icons": {
       "128": "./assets/images/icon.png"
