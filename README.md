@@ -19,12 +19,6 @@
 
 <br>
 
-+ **Permissions explained**: <br>
-  + *Storage:* This application may tell you that it needs access to your browser history. It does not. It actually uses LocalStorage which is a database for the website.
-  + *Native Messaging:* Cooperating native applications means the extension talks to the website and back to update your selfie.
-
-<br>
-
 + **Github**: <br>
 The code's open source! Check it out on my [github](https://github.com/SuppliedOrange/Chatroulette-Custom-Selfie/)
 
