@@ -3,8 +3,6 @@
 ### Tired of looking like an exhausted goblin before taking a selfie on Chatroulette? <br>
 ### This extension allows you to use ANY image as your selfie. So go out, take a nice picture on your phone and upload it on Chatroulette!
 
-<hr> 
-
 <br>
 
 + **Usage:**
@@ -12,10 +10,6 @@
   + You will need to set a selfie before using this. Doesn't matter if it's bad. The extension just replaces that selfie.
 
   + The extension also flips your thumbnail and resizes it. This is how others will actually see you. As a 1x1 non-inverted picture.
-
-<br>
-
-<hr>
 
 <br>
 
