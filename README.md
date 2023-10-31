@@ -1,7 +1,7 @@
 [![Chrome OS](https://img.shields.io/badge/Get_it_on_webstore-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white)](https://chrome.google.com/webstore/detail/chatroulette-custom-selfie/diioniigmlfehfeoojmgonobbmkndffe)
 
 ### Tired of looking like an exhausted goblin before taking a selfie on Chatroulette? <br>
-### This extension allows you to use ANY image as your selfie. So go out, take a nice picture on your phone and upload it on Chatroulette!
+### This extension allows you to use ANY image as your selfie. Maybe even use a moving gif! So go out, take a nice picture or video on your phone and upload it to Chatroulette!
 
 <br>
 
