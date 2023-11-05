@@ -32,7 +32,6 @@ function switchTabs(tabPaneId) {
     });
   
     const selectedTabPane = document.getElementById(tabPaneId);
-    selectedTabPane.classList.add("active");
     selectedTabPane.classList.add("active", "show");
 
 }
