@@ -11,7 +11,7 @@
 
   + The extension also flips your thumbnail and resizes it. This is how others will actually see you. As a 1x1 non-inverted picture.
  
-  + If you're using a gif, make sure its very less in size. Preferably less than 5 MB. Reduce it's frames and compress it before uploading it. Everyone else can see your selfie move after that.
+  + If you're using a gif, make sure its very less in size. Preferably less than 5 MB. Reduce it's frames and compress it before uploading it. Everyone else can see your selfie move after that. **Make sure your face is visible.**
 
 <br>
 
