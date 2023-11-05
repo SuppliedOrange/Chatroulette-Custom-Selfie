@@ -10,6 +10,8 @@
   + You will need to set a selfie before using this. Doesn't matter if it's bad. The extension just replaces that selfie.
 
   + The extension also flips your thumbnail and resizes it. This is how others will actually see you. As a 1x1 non-inverted picture.
+ 
+  + If you're using a gif, make sure its very less in size. Preferably less than 5 MB. Reduce it's frames and compress it before uploading it. Everyone else can see your pfp move after that.
 
 <br>
 
