@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Chatroulette Custom Selfie",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Set any image as your selfie on Chatroulette!",
     "action": {
       "default_popup": "popup.html"
