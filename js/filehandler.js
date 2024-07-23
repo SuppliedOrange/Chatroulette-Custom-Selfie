@@ -32,13 +32,17 @@ async function checkFile(event) {
             img.width = Math.round( img.width / 1.1 );
     
         }
-    
+
         const newData = {
-          contentType: contentType,
+          sample: {
+              contentType: contentType,
+              data: imageData
+          },
+          classification: "Manual",
           height: img.height,
-          width: img.width,
-          data: imageData
-        };
+          width: img.width
+          
+        }
         
         createDataStringAndUpload( newData, dataURI );
 

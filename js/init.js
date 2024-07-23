@@ -26,4 +26,4 @@ function getSelfieValue() {
 
 }
 
-const fetchSelfieValue = () => chrome.runtime.sendMessage({selfie: window.localStorage.getItem('selfie')});
+const fetchSelfieValue = () => chrome.runtime.sendMessage({selfie: window.localStorage.getItem('selfie_v2')});
