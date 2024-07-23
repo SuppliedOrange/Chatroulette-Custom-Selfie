@@ -3,7 +3,7 @@ addEventListener("load", async (event) => {
     const thumbnail = document.getElementsByTagName('img')[0]
     if (!thumbnail) return;
 
-    let selfie = localStorage.getItem("selfie");
+    let selfie = localStorage.getItem("selfie_v2");
     if (!selfie) return;
 
     selfie = await JSON.parse( selfie );
