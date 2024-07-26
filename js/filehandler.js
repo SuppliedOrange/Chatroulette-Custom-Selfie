@@ -26,21 +26,12 @@ async function checkFile(event) {
 
     img.onload = function() {
 
-        while (img.height > 800 || img.width > 800) {
-
-            img.height = Math.round( img.height / 1.1 );
-            img.width = Math.round( img.width / 1.1 );
-    
-        }
-
         const newData = {
           sample: {
               contentType: contentType,
               data: imageData
           },
-          classification: "Manual",
-          height: img.height,
-          width: img.width
+          classification: "Manual"
           
         }
         

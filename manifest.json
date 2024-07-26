@@ -6,12 +6,6 @@
     "action": {
       "default_popup": "popup.html"
     },
-    "content_scripts": [
-      {
-        "matches": ["https://chatroulette.com/app/"],
-        "js": ["./js/fixcanvas.js"]
-      }
-    ],
     "permissions": ["tabs", "scripting", "activeTab"],
     "host_permissions": ["https://chatroulette.com/*"],
     "icons": {

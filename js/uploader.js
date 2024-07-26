@@ -17,11 +17,8 @@ function createDataStringAndUpload( newData, rawDataURI ) {
 
                 window.localStorage.setItem( 'selfie_v2', JSON.stringify(newData) );
                 
-                let image = document.getElementsByTagName('img')[0]
-                image.src = rawDataURI; // Doesn't work anymore :( I'll still keep it around just in case.
-
-                let lesser = ( newData.height > newData.width ) ? newData.width : newData.height;
-                image.setAttribute('style', `transform: scaleX(1); width: ${lesser}px; height: ${lesser}px`); // The reason we're doing this is because chatroulette mirrors the image for the user to see. It's pointless. Also crops image
+                let image = document.getElementsByTagName('img')[0].parentElement.querySelector('div');
+                image.style = `background-image: url('${rawDataURI}');`; 
 
             }), args: [newData, rawDataURI] } )
 
