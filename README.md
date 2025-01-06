@@ -1,5 +1,8 @@
 [![Chrome OS](https://img.shields.io/badge/Get_it_on_webstore-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white)](https://chrome.google.com/webstore/detail/chatroulette-custom-selfie/diioniigmlfehfeoojmgonobbmkndffe)
 
+![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/diioniigmlfehfeoojmgonobbmkndffe?style=flat-square&label=Current%20Users&color=blue) ![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/diioniigmlfehfeoojmgonobbmkndffe?style=flat-square&label=Extension%20Rating)
+
+
 ![image](https://github.com/SuppliedOrange/Chatroulette-Custom-Selfie/assets/70258998/25abdd9b-5b83-4922-8822-93a1239a84df)
 
 
