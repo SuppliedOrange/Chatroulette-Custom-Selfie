@@ -32,3 +32,7 @@ I do not suggest using NSFW images, impersonating people, hiding your face etc. 
 + **Dependencies:** <br>
   + Bootstrap 5.3 (bundled minified JS and CSS in /deps)
   + Animate.css (minified CSS in /deps)
+
+> [!IMPORTANT]
+> ### This project needs your help
+> I have noticied dramatic losses in user count and cannot pin point the issue. Let me know how effective the extension was for you here -> https://github.com/SuppliedOrange/Chatroulette-Custom-Selfie/discussions/5
